@@ -1,0 +1,4 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.f" controllerName="com.krypt.DemoApp.controller.App"
+	height="100%">
+	<FlexibleColumnLayout id="fcl" stateChange="onStateChanged"	layout="{LayoutData>/layout}" backgroundDesign="Translucent"/>
+</mvc:View>
