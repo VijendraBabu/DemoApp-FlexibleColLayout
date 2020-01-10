@@ -1,0 +1,7 @@
+<mvc:View controllerName="com.krypt.DemoApp.controller.Worklist" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<Page title="Worklist">
+		<content>
+			<Button type="Accept" text="Naviagte to Object Page" press="onPress"></Button>
+		</content>
+	</Page>
+</mvc:View>

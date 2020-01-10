@@ -1,0 +1,8 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="com.krypt.DemoApp.controller.Object2"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="ObjectPage 2">
+		<content>
+			<Button type="Accept" text="Object Page 3 Data"></Button>
+		</content>
+	</Page>
+</mvc:View>
