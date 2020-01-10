@@ -58,9 +58,11 @@
 			}
 		},
 		"resources": {
-			"css": [{
-				"uri": "css/style.css"
-			}]
+			"css": [
+				{
+					"uri": "css/style.css"
+				}
+			]
 		},
 		"config": {
 			"fullWidth": true
@@ -74,29 +76,33 @@
 				"controlId": "fcl",
 				"transition": "slide"
 			},
-			"routes": [{
-				"pattern": ":layout:",
-				"name": "Worklist",
-				"target": [
-					"Worklist",
-					"Object"
-				]
-			}, {
-				"pattern": "Object/{product}/{layout}",
-				"name": "Object",
-				"target": [
-					"Worklist",
-					"Object"
-				]
-			}, {
-				"pattern": "Object2/{product}/{supplier}/{layout}",
-				"name": "Object2",
-				"target": [
-					"Worklist",
-					"Object",
-					"Object2"
-				]
-			}],
+			"routes": [
+				{
+					"pattern": ":layout:",
+					"name": "Worklist",
+					"target": [
+						"Worklist",
+						"Object"
+					]
+				},
+				{
+					"pattern": "Object/{product}/{layout}",
+					"name": "Object",
+					"target": [
+						"Worklist",
+						"Object"
+					]
+				},
+				{
+					"pattern": "Object2/{product}/{supplier}/{layout}",
+					"name": "Object2",
+					"target": [
+						"Worklist",
+						"Object",
+						"Object2"
+					]
+				}
+			],
 			"targets": {
 				"Worklist": {
 					"viewType": "XML",
@@ -116,6 +122,10 @@
 					"viewType": "XML",
 					"viewName": "Object2",
 					"controlAggregation": "endColumnPages"
+				},
+				"NewTest": {
+					"viewType": "XML",
+					"viewName": "NewTest"
 				}
 			}
 		}
